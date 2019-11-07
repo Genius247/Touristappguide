@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Phase1</string>
+    <string name="url1"></string>
+    <string name="url"></string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps" />
+</resources>
