@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Nov 07 11:52:09 IST 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\trusha\\Downloads\\project-20191021T041514Z-001\\project\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tripit"
+        android:padding="8dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/listPicMain"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name of the place"
+        android:id="@+id/listNameMain"
+        android:layout_toRightOf="@id/listPicMain"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:textColor="#1b1b1b"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:textSize="28sp"/>
+
+    <RatingBar
+        android:id="@+id/listRatingMain"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listNameMain"
+        android:layout_marginLeft="-59dp"
+        android:layout_marginTop="65dp"
+        android:layout_toRightOf="@id/listPicMain"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="4dp" />
+
+    <Button
+        android:id="@+id/Upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listPicMain"
+        android:layout_alignStart="@+id/listRatingMain"
+        android:layout_alignLeft="@+id/listRatingMain"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="142dp"
+        android:text="Upload" />
+
+
+
+
+</RelativeLayout>
